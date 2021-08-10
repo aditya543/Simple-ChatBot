@@ -1,0 +1,43 @@
+{"intents": [
+{
+	"class": "greet",
+	"inputs": ["hey", "hello", "hi", "hey there"],
+	"outputs": ["Hey there.", "Hi there", "Hello", "Hey"]
+},
+{
+	"class": "bye",
+	"inputs": ["bye", "cya", "goodbye", "ttyl"],
+	"outputs": ["Bye", "CYA", "Bye, cya soon"]
+},
+{
+	"class": "sup",
+	"inputs": ["what are you doing", "sup", "wassup", "what's up"],
+	"outputs": ["Nothing!", "I'm not doing anything."]
+},
+{
+	"class": "hru",
+	"inputs": ["how are you", "how are you doing", "hey how are you",
+				"how have you been"],
+	"outputs": ["I'm fine. Thanks for asking!", "I'm good."]
+},
+{
+	"class": "name",
+	"inputs": ["what is your name", "what should i call you", "what's your name"],
+	"outputs": ["My name is Jarvis", "You can call me Jarvis"]
+},
+{
+	"class": "ok",
+	"inputs": ["okay", "ok", "k", "kk", "okayy"],
+	"outputs": ["Yeah.", "Yes!", "Yup."]
+},
+{
+	"class": "what_can_u_do",
+	"inputs": ["what can you do", "what are you capable of", "what can be done by you"],
+	"outputs": ["I cannot do anything. I'm a lazy bum!", "Nothing can be done by me, I am lazy"]
+},
+{
+	"class": "unk",
+	"inputs": ["why", "where", "who", "when"],
+	"outputs": ["I don't know.", "No idea!"]
+}
+]}
