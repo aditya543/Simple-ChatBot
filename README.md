@@ -3,6 +3,15 @@
 This is a simple ChatBot made using Python and Tensorflow / Keras.
 It's not a super smart chatbot. It can only learn to recognize user added Patterns in the file 'intents.json'.
 
+## Setup
+Setup is easy, Python Version 3.6 is recommended, but you may be fine with other versions but just note that you might get errors,
+and if you do then simply change your python version to 3.6 and hopefully it will work!
+
+Then run the following command in your terminal:
+pip install -r requirements.txt
+
+and boom you're good to go, in any case if you get any erroes, do contact me.
+
 ## Train the model
 It is very easy to train the model, just run simple-chatbot.py and it will start training the model.
 
